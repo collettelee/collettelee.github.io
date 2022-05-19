@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "heart_sweet_heartregular";
+    src: url("https://cdn.glitch.global/823e9f76-7176-4764-be1d-2392aea5d2da/heart_sweet_heart-webfont.woff2?v=1649191649226") format("woff2");
+         url("https://cdn.glitch.global/823e9f76-7176-4764-be1d-2392aea5d2da/heart_sweet_heart-webfont.woff?v=1649191649105") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar {
+
+  text-align: right;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.intro {
+  display: block;
+  border: 1px;
+  margin-bottom: 35px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  display: block;
+  margin:60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:75%;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.portrait-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.landscape-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+body {
+  background-color:rgb(250, 246, 227);
+  
+}
+
+h1 {
+  font-size: 750%;
+  font-family: "heart_sweet_heartregular";
+  font-weight: 400;
+  font-style: normal;
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+h2 {
+  font-size:18px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 14px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.column {
+  display: block;
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  padding-top: 40px;
+
+  
+}
+
+.column img {
+  display: block;
+  width: 72%;
+  height: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
+  border: 0px dashed rgb(7, 198, 138);
+}
+
+.column p {
+  color: black;
+  display: block;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 80%;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.shift {
+  color:rgb(7, 198, 138);
+  margin-left:10%;
+  margin-right:10%;
+  padding-bottom:8%;
+  margin-bottom:5%;
+  border: 1.5px dashed rgb(0, 0, 0);
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  position:static;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 110px;
+}
+
+.footer p {
+  text-align: center;
+  padding-top: 82px;
+}
+
+@media only screen and (max-width: 750px) {
+  h1 {
+    font-size: 80px;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  
+  a:link {
+    text-decoration: underline;
+  }
+
+  
+  h1 {
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size:11px;
+  }
+
+  .intro {
+    margin-bottom: 20px;
+  }
+
+  .navbar {
+    font-size: 14px;
+    text-align: right;
+  }
+
+  .column {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .column img {
+    display: block;
+    width: 65%;
+    height: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+
+  }
+  
+  .portrait-center {
+    width:80%;
+  }
+  
+  .landscape-center{
+    width:80%;
+  }
+  
+}
