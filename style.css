@@ -188,11 +188,6 @@ a:visited {
     text-align:left;
 }
 
-.float h2{
-    text-align:left;
-    padding-top:82px;
-}
-
 @media only screen and (max-width: 750px) {
   h1 {
     font-size: 80px;
