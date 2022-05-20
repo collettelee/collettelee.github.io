@@ -179,6 +179,20 @@ a:visited {
   padding-top: 82px;
 }
 
+.float {
+    position: fixed;
+    width:100%;
+    height:110px;
+    bottom:0;
+    left:0;
+    text-align:left;
+}
+
+.float h2{
+    text-align:left;
+    padding-top:82px;
+}
+
 @media only screen and (max-width: 750px) {
   h1 {
     font-size: 80px;
