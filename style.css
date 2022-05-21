@@ -197,8 +197,11 @@ a:visited {
     h2 {
     font-size: 14px;
   }
+     p {
+    font-size:11px;
+  }
     
-    .navbar{
+    .navbar {
         font-size:14px;
     }
 
@@ -214,11 +217,6 @@ a:visited {
   h1 {
     font-size: 50px;
     margin-top: 50px;
-  }
-  
-  
-  p {
-    font-size:11px;
   }
 
   .intro {
