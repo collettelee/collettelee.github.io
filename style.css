@@ -7,6 +7,13 @@
 
 }
 
+body {
+  background-color:rgb(250, 246, 227);
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: 100%;
+}
+
 .navbar {
 
   text-align: right;
@@ -67,13 +74,6 @@
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-
-
-body {
-  background-color:rgb(250, 246, 227);
-  
 }
 
 h1 {
