@@ -188,15 +188,15 @@ a:visited {
     text-align:left;
 }
 
-@media only screen and (max-width: 750px) {
+/* @media only screen and (max-width: 750px) {
   h1 {
     font-size: 80px;
   }
 
 
-}
+} */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 900px) {
   
   a:link {
     text-decoration: underline;
