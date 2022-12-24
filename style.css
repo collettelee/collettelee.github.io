@@ -103,7 +103,7 @@ p {
 .column {
   display: block;
   text-align: center;
-  float: center;
+  float: left;
   width: 50%;
  /* padding-top: 40px;*/
 
