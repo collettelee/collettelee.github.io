@@ -107,6 +107,7 @@ p {
 .column {
   display: block;
   text-align: center;
+  color: white;
   float: left;
   width: 50%;
  /* padding-top: 40px;*/
@@ -125,7 +126,7 @@ p {
 }
 
 .column p {
-  color: black;
+  color: white;
   display: block;
   width: 72%;
   margin-left: auto;
