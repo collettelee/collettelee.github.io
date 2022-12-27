@@ -109,8 +109,8 @@ p {
   text-align: center;
   color: white;
   float: left;
-  width: 50%;
- /* padding-top: 40px;*/
+  width: 100%;
+  padding-top: 40px;
 
   
 }
