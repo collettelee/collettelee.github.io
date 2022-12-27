@@ -126,13 +126,35 @@ p {
 /*   border: 0px dashed rgb(7, 198, 138); */
 }
 
+.textcolumn {
+  display: block;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 33.33%;
+  padding-top: 20px; 
+}
+
+.textcolumn p {
+  color: white;
+  display: block;
+  width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 80%;
+  font-family: "Inconsolata", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .column p {
   color: white;
   display: block;
   width: 72%;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   font-size: 80%;
   font-family: "Inconsolata", monospace;
   font-weight: 400;
