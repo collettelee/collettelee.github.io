@@ -79,6 +79,7 @@ body {
 }
 
 h1 {
+  font-color: white;
   font-size: 750%;
   font-family: "heart_sweet_heartregular";
   font-weight: 400;
@@ -88,6 +89,7 @@ h1 {
 }
 
 h2 {
+  font-color: white;
   font-size:18px;
   font-family: "Inconsolata", monospace;
   font-weight: 400;
@@ -95,6 +97,7 @@ h2 {
 }
 
 p {
+  font-color: white;
   font-size: 14px;
   font-family: "Inconsolata", monospace;
   font-weight: 300;
