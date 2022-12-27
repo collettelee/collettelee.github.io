@@ -141,8 +141,8 @@ p {
 
 .shift {
   color:rgb(7, 198, 138);
-  margin-left:10%;
-  margin-right:10%;
+/*   margin-left:10%;
+  margin-right:10%; */
   padding-bottom:8%;
   margin-bottom:5%;
   border: 1.5px dashed white;
