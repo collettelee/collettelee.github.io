@@ -1,14 +1,15 @@
 const btn = document.querySelector("button"); 
-if (btn) {
-  btn.onclick = function() {
-    btn.classList.toggle("dipped");
-  };
-}
 
 let slideIndex = [1,1];
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
+
+if (btn) {
+  btn.onclick = function() {
+    btn.classList.toggle("dipped");
+  };
+}
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
