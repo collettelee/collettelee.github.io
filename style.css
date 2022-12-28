@@ -239,6 +239,8 @@ a:visited {
 
 /* Slideshow container */
 .slideshow-container {
+    display:block;
+    float:center;
   width:100%;
   height: 56.25%;
   position: relative;
