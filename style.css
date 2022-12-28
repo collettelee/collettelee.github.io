@@ -254,8 +254,8 @@ a:visited {
 
   .column img {
     display: block;
-    width: 65%;
-    height: 65%;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
