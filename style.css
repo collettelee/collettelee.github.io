@@ -262,6 +262,10 @@ a:visited {
     padding: 0px;
 
   }
+    
+  .textcolumn p {
+      font-size:60%;
+    }
   
   .portrait-center {
     width:75%;
