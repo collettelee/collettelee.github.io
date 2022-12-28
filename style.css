@@ -111,7 +111,6 @@ font-style: normal;
   color: white;
   float: left;
   width: 100%;
-  padding-top: 20px;
 }
 
 .column img {
@@ -132,7 +131,7 @@ font-style: normal;
   float: left;
   width: 70%;
   padding-left:10px;
-  padding-bottom:20px;
+  padding-bottom:30px;
 }
 
 .textcolumnside {
@@ -141,7 +140,7 @@ font-style: normal;
   color: white;
   float: left;
   width: 12.5%;
-  padding-bottom:20px;
+  padding-bottom:30px;
 }
 
 .textcolumncenter p {
