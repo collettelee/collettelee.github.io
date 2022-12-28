@@ -246,7 +246,10 @@ a:visited {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1 {
+  display: none;
+}
+.mySlides2 {
   display: none;
 }
 
