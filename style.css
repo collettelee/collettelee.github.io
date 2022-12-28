@@ -127,16 +127,16 @@ font-style: normal;
 
 .textcolumncenter {
   display: block;
-  text-align: center;
+  text-align: left;
   color: white;
-  float: left;
+  float: center;
   width: 70%;
 /*   padding-top: 20px;  */
 }
 
 .textcolumnside {
-    display: block;
-  text-align: center;
+  display: block;
+  text-align: left;
   color: white;
   float: left;
   width: 12.5%;
