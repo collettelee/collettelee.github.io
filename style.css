@@ -273,8 +273,12 @@ a:visited {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
     
-  .textcolumn {
-      width:100%;
+  .textcolumncenter {
+      width:80%;
+    }
+    
+    .textcolumnside {
+        width:20%;
     }
     
 
