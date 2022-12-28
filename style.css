@@ -251,6 +251,10 @@ a:visited {
   .column {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
   }
+    
+  .textcolumn {
+      width:100%;
+  }
 
   .column img {
     display: block;
