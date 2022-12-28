@@ -125,7 +125,7 @@ font-style: normal;
 /*   border: 0px dashed rgb(7, 198, 138); */
 }
 
-.textcolumn {
+.textcolumncenter {
   display: block;
   text-align: center;
   color: white;
@@ -134,16 +134,36 @@ font-style: normal;
 /*   padding-top: 20px;  */
 }
 
-.textcolumn p {
+.textcolumnside {
+    display: block;
+  text-align: center;
+  color: white;
+  float: left;
+  width: 12.5%;
+}
+
+.textcolumncenter p {
   color: white;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
   font-size: 80%;
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  font-style: normal;
+  font-family: nimbus-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.textcolumnside p {
+  color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 80%;
+  font-family: nimbus-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
 .column p {
@@ -153,9 +173,9 @@ font-style: normal;
   margin-right: auto;
   text-align: left;
   font-size: 80%;
-  font-family: "Inconsolata", monospace;
-  font-weight: 400;
-  font-style: normal;
+  font-family: nimbus-sans,sans-serif;
+font-weight: 300;
+font-style: normal;
 
 }
 
@@ -268,7 +288,11 @@ a:visited {
 
   }
     
-  .textcolumn p {
+  .textcolumncenter p {
+      font-size:60%;
+    }
+    
+    .textcolumnside p {
       font-size:60%;
     }
   
