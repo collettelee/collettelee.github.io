@@ -126,7 +126,7 @@ img {
   float: left;
   width: 70%;
   padding-left:10px;
-  padding-bottom:15px;
+  padding-bottom:10px;
 }
 
 .textcolumnside {
@@ -135,7 +135,7 @@ img {
   color: white;
   float: left;
   width: 12.5%;
-  padding-bottom:15px;
+  padding-bottom:10px;
 }
 
 .textcolumncenter p {
