@@ -1,10 +1,11 @@
 const btn = document.querySelector("button"); 
 
-let slideIndex = [1,1,1];
-let slideId = ["mySlides1", "mySlides2", "mySlides3"]
+let slideIndex = [1,1,1,1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
+showSlides(1, 3);
 
 if (btn) {
   btn.onclick = function() {
