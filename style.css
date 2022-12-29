@@ -118,6 +118,7 @@ img {
   width: 100%;
   height: 56.25%;
   margin: auto;
+    vertical-align: middle;
 /*   padding-bottom: 20px; */
 /*   padding: 2%; */
 /*   border: 0px dashed rgb(7, 198, 138); */
@@ -235,20 +236,16 @@ a:visited {
 }
 
 * {box-sizing:border-box}
+.mySlides1, .mySlides2, .mySlides3 {display: none}
 
 /* Slideshow container */
 .slideshow-container {
-    display:block;
-    float:center;
+  display:block;
+  float:center;
   width:100%;
   height: 56.25%;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides1, .mySlides2, .mySlides3 {
-  display: none;
 }
 
 /* Next & previous buttons */
