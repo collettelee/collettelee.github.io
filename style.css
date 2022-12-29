@@ -115,10 +115,8 @@ font-style: normal;
 
 img {
   display: block;
-  width: 100%;
   margin: auto;
   vertical-align: middle;
-
 }
 
 .textcolumncenter {
@@ -128,7 +126,7 @@ img {
   float: left;
   width: 70%;
   padding-left:10px;
-  padding-bottom:25px;
+  padding-bottom:15px;
 }
 
 .textcolumnside {
@@ -137,7 +135,7 @@ img {
   color: white;
   float: left;
   width: 12.5%;
-  padding-bottom:25px;
+  padding-bottom:15px;
 }
 
 .textcolumncenter p {
