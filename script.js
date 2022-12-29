@@ -1,9 +1,10 @@
 const btn = document.querySelector("button"); 
 
 let slideIndex = [1,1];
-let slideId = ["mySlides1", "mySlides2"]
+let slideId = ["mySlides1", "mySlides2", "mySlides3"]
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 if (btn) {
   btn.onclick = function() {
@@ -25,5 +26,5 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";
   
-  setTimeout(showSlides, 5000);
+  setTimeout(showSlides(n,no), 5000);
 }
