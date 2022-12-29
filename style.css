@@ -116,8 +116,8 @@ font-style: normal;
 img {
   display: block;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  height: 56.25%;
+  margin: auto;
 /*   padding-bottom: 20px; */
 /*   padding: 2%; */
 /*   border: 0px dashed rgb(7, 198, 138); */
