@@ -116,6 +116,7 @@ font-style: normal;
 img {
   display: block;
   margin: auto;
+  width: 100%;
   vertical-align: middle;
 }
 
