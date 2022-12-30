@@ -195,7 +195,7 @@ font-style: normal;
 
 a:link {
   color: white;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:hover,
