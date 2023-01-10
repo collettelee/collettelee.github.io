@@ -53,11 +53,8 @@ font-style: normal;
 
 .center {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin:0 auto;
   width: 30%;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .portrait-center {
