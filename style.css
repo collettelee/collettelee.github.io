@@ -24,18 +24,11 @@ ul {
 }
 
 li {
+  display:block;
   float: left;
-    font-family: nimbus-sans,sans-serif;
-font-weight: 300;
-font-style: normal;
-}
-
-
-li a {
- display:block;
-font-family: nimbus-sans,sans-serif;
-font-weight: 300;
-font-style: normal;
+  font-family: nimbus-sans,sans-serif;
+  font-weight: 300;
+  font-style: normal;
   color: white;
   text-align:center;
   font-size: 18px;
