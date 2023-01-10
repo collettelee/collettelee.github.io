@@ -27,14 +27,12 @@ li {
   float: left;
 }
 
-.navbar {
-font-family: nimbus-sans,sans-serif;
+
+li a {
+  display:block;
+  font-family: nimbus-sans,sans-serif;
 font-weight: 300;
 font-style: normal;
-}
-
-.navbar a {
-  display:block;
   color: white;
   text-align:center;
   font-size: 18px;
