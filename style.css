@@ -256,7 +256,7 @@ a:visited {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  background: url(https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png);
+  background-image: url(https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png);
   top: 50%;
   width: auto;
   margin-top: -22px;
