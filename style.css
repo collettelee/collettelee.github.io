@@ -101,17 +101,17 @@ h1 {
 
 h2 {
   color: white;
-  font-size:18px;
+  font-size:16px;
   font-family: Inconsolata,monospace;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 }
 
 p {
   color: white;
-  font-size: 14px;
+  font-size: 12px;
 font-family: Inconsolata,monospace;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 }
 
@@ -157,7 +157,7 @@ img {
   text-align: left;
   font-size: 80%;
   font-family: Inconsolata,monospace;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 }
 
@@ -169,7 +169,7 @@ font-style: normal;
   text-align: left;
   font-size: 80%;
   font-family: Inconsolata,monospace;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 }
 
@@ -181,7 +181,7 @@ font-style: normal;
   text-align: left;
   font-size: 80%;
   font-family: Inconsolata,monospace;
-font-weight: 300;
+font-weight: 200;
 font-style: normal;
 
 }
