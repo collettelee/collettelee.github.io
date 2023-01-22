@@ -16,6 +16,17 @@ body {
   -ms-text-size-adjust: 100%;
 }
 
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
 ul {
   list-style-type: none;
   margin: 0;
