@@ -16,6 +16,15 @@ body {
   -ms-text-size-adjust: 100%;
 }
 
+
+h1 {
+  color: white;
+  font-size:800%;
+  font-family: nimbus-sans, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
 span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
@@ -98,14 +107,6 @@ li a:hover{
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-}
-
-h1 {
-  color: white;
-  font-size:800%;
-  font-family: nimbus-sans, sans-serif;
-font-weight: 200;
-font-style: normal;
 }
 
 p {
