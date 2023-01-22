@@ -15,28 +15,6 @@ showSlides(1, 9);
 showSlides(1,10);
 showSlides(1,11);
 
-if (btn) {
-  btn.onclick = function() {
-    btn.classList.toggle("dipped");
-  };
-}
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";
-  setTimeout(showSlides, 2000);
-}
-
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   var dataText = [ "Collette Lee", "Designer", "Creative Director", "Collette Lee"];
@@ -79,3 +57,25 @@ document.addEventListener('DOMContentLoaded',function(event){
   // start the text animation
   StartTextAnimation(0);
 });
+
+if (btn) {
+  btn.onclick = function() {
+    btn.classList.toggle("dipped");
+  };
+}
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";
+  setTimeout(showSlides, 2000);
+}
