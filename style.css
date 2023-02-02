@@ -338,11 +338,6 @@ a:visited {
   a:link {
     text-decoration: underline;
   }
-    
-  p {
-      line-height:65%;
-    }
-
   
   h1 {
     font-size: 30px;
