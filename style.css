@@ -227,15 +227,15 @@ a:visited {
 }
 
 .footer {
-  position:static;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
 }
 
 .footer p {
-  text-align: center;
-  padding-top: 18px;
+  text-align: right;
+/*   padding-top: 18px; */
 }
 
 .float {
