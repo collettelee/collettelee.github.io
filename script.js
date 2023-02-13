@@ -54,10 +54,10 @@ showSlides(1, 5);
 showSlides(1, 6);
 showSlides(1, 7);
 showSlides(1, 8);
-showSlides(1, 9);
+// showSlides(1, 9);
 // showSlides(1,10);
-// showSlides(1,11);
-showSlides(1,12);
+showSlides(1,11);
+// showSlides(1,12);
 
 if (btn) {
   btn.onclick = function() {
