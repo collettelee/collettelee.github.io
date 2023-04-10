@@ -267,6 +267,8 @@ a:visited {
   top: 50%;
   width: auto;
   margin-top: -22px;
+      margin-left:-12%;
+  margin-right:-12%;
   padding: 16px;
   color: #ffbfee;
   font-weight: bold;
