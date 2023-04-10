@@ -254,7 +254,7 @@ a:visited {
 /* Slideshow container */
 .slideshow-container {
   display:block;
-  width:100%;
+  width:75%;
   position: relative;
   margin: auto;
 }
