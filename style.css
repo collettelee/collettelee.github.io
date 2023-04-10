@@ -51,7 +51,7 @@ ul {
 li {
   display:block;
   float: center;
-  font-family: Inconsolata,monospace;
+  font-family: nimbus-sans, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: white;
@@ -118,7 +118,7 @@ p {
   color: white;
   font-size: 80%;
     line-height:125%;
-font-family: Inconsolata,monospace;
+font-family: nimbus-sans, sans-serif;
 font-weight: 200;
 font-style: normal;
 }
@@ -164,7 +164,7 @@ img {
   margin-right: auto;
   text-align: left;
   font-size: 80%;
-  font-family: Inconsolata,monospace;
+  font-family: nimbus-sans, sans-serif;
 font-weight: 200;
 font-style: normal;
 }
@@ -176,7 +176,7 @@ font-style: normal;
   margin-right: auto;
   text-align: left;
   font-size: 80%;
-  font-family: Inconsolata,monospace;
+  font-family: nimbus-sans, sans-serif;
 font-weight: 200;
 font-style: normal;
 }
@@ -188,7 +188,7 @@ font-style: normal;
   margin-right: auto;
   text-align: left;
   font-size: 80%;
-  font-family: Inconsolata,monospace;
+  font-family: nimbus-sans, sans-serif;
 font-weight: 200;
 font-style: normal;
 
