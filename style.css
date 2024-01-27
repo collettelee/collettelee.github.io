@@ -1,11 +1,3 @@
-@font-face {
-    font-family: "heart_sweet_heartregular";
-    src: url("https://cdn.glitch.global/823e9f76-7176-4764-be1d-2392aea5d2da/heart_sweet_heart-webfont.woff2?v=1649191649226") format("woff2");
-         url("https://cdn.glitch.global/823e9f76-7176-4764-be1d-2392aea5d2da/heart_sweet_heart-webfont.woff?v=1649191649105") format("woff");
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 hr {
     
@@ -15,7 +7,6 @@ hr {
 body {
   background-color: white;
   color: white;
-/*     background-color:rgb(248,244,236); */
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: 100%;
@@ -25,12 +16,12 @@ body {
 h1 {
   color: black;
   font-size: 30px;
-  font-family: "Arial Narrow", Arial, sans-serif;
-font-weight: 200;
-font-style: normal;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
-span {
+/* span {
   border-right: .05em solid;
   animation: caret 1s steps(1) infinite;
 }
@@ -40,11 +31,12 @@ span {
     border-color: transparent;
   }
 }
-
+ */
 nav {
   overflow: hidden;
   position: sticky;
-    z-index:950;
+  background-color: white;
+  z-index:950;
   top: 0;
   width: 100%;
 }
@@ -59,7 +51,7 @@ ul {
 li {
   display:block;
   float: center;
-  font-family: "nimbus-sans-condensed", sans-serif;
+  font-family: Helvetica, sans-serif;
   font-weight: 300;
   font-style: normal;
   color: black;
@@ -77,10 +69,9 @@ li a:hover{
     text-decoration:underline;
 }
 
-.intro {
+/* .intro {
   display: block;
   border: 1px;
-/*   margin-bottom: 35px; */
   width: 30%;
   text-align: left;
   margin-left: auto;
@@ -94,8 +85,7 @@ li a:hover{
   margin-left: auto;
   margin-right: auto;
   width:75%;
-}
-
+} */
 
 .center {
   display: block;
@@ -103,7 +93,7 @@ li a:hover{
   width: 30%;
 }
 
-.portrait-center {
+/* .portrait-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -120,15 +110,15 @@ li a:hover{
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-}
+} */
 
 p {
   color: black;
   font-size: 80%;
-line-height:125%;
-font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 200;
-font-style: normal;
+  line-height:125%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .column {
@@ -171,10 +161,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-size: 80%;
-  font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 200;
-font-style: normal;
 }
 
 .textcolumnside p {
@@ -183,10 +169,6 @@ font-style: normal;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-size: 80%;
-  font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 200;
-font-style: normal;
 }
 
 .column p {
@@ -195,14 +177,10 @@ font-style: normal;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-size: 80%;
-  font-family: "nimbus-sans-condensed", sans-serif;
-font-weight: 200;
-font-style: normal;
 
 }
 
-.shift {
+/* .shift {
   color:rgb(7, 198, 138);
 /*   margin-left:10%;
   margin-right:10%; */
@@ -210,7 +188,7 @@ font-style: normal;
   margin-bottom:5%;
   border: 1.5px dashed white;
 
-}
+} */
 
 .row:after {
   content: "";
