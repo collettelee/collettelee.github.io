@@ -138,6 +138,9 @@ img {
   margin: auto;
   width: 100%;
   vertical-align: middle;
+  border-style: solid:
+  border-width: 1px;
+  border-color: black;
 }
 
 .textcolumncenter {
