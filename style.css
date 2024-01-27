@@ -36,6 +36,7 @@ nav {
   overflow: hidden;
   position: sticky;
   background-color: white;
+  border-style: solid;
   z-index:950;
   top: 0;
   width: 100%;
