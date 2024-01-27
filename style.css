@@ -403,7 +403,7 @@ a:visited {
   user-select: none;
   gap: var(--gap);
   background-color: #c0dceb;
-  border-style: solid;
+  border-style: none none solid none;
   border-width:1px;
   border-color:black;
 }
@@ -415,12 +415,12 @@ a:visited {
   gap: var(--gap);
   min-width: 100%;
   animation: scroll 20s linear infinite;
-    flex: 0 0 auto;
+  flex: 0 0 auto;
   color: black;
   font-family: Helvetica;
-  margin: 2px;
+/*   margin: 2px;
   padding: 0.5rem 1rem;
-  border-radius: 0.25rem;
+  border-radius: 0.25rem; */
   text-align: center;
 }
 
