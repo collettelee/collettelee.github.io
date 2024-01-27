@@ -114,8 +114,8 @@ li a:hover{
 
 p {
   color: black;
+  line-height: 125%;
   font-size: 80%;
-  line-height:125%;
   font-family: Helvetica, sans-serif;
   font-weight: 200;
   font-style: normal;
@@ -161,6 +161,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-size: 80%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .textcolumnside p {
@@ -169,6 +173,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
+  font-size: 80%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .column p {
@@ -177,7 +185,10 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-
+  font-size: 80%;
+  font-family: Helvetica, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
 
 /* .shift {
