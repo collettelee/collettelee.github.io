@@ -394,3 +394,41 @@ a:visited {
   }
   
 }
+
+.marquee {
+  --gap: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  background-color: #c0dceb;
+  border-style: solid;
+  border-width:1px;
+  border-color:black;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll 20s linear infinite;
+    flex: 0 0 auto;
+  color: black;
+  font-family: Helvetica;
+  margin: 2px;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
