@@ -69,7 +69,7 @@ li a:hover{
     text-decoration:underline;
 }
 
-/* .intro {
+.intro {
   display: block;
   border: 1px;
   width: 30%;
@@ -85,7 +85,7 @@ li a:hover{
   margin-left: auto;
   margin-right: auto;
   width:75%;
-} */
+}
 
 .center {
   display: block;
@@ -93,7 +93,7 @@ li a:hover{
   width: 30%;
 }
 
-/* .portrait-center {
+.portrait-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -110,7 +110,7 @@ li a:hover{
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-} */
+}
 
 p {
   color: black;
@@ -191,7 +191,7 @@ img {
   font-style: normal;
 }
 
-/* .shift {
+.shift {
   color:rgb(7, 198, 138);
 /*   margin-left:10%;
   margin-right:10%; */
@@ -199,7 +199,7 @@ img {
   margin-bottom:5%;
   border: 1.5px dashed white;
 
-} */
+}
 
 .row:after {
   content: "";
