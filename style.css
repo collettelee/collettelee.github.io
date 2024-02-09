@@ -408,12 +408,12 @@ a:visited {
   min-width: 100%;
   animation: scroll 20s linear infinite;
   flex: 0 0 auto;
-  color: white;
   font-family: Helvetica;
-/*   margin: 2px;
-  padding: 0.5rem 1rem;
-  border-radius: 0.25rem; */
   text-align: center;
+}
+
+.marquee__content p {
+    color: white;
 }
 
 @keyframes scroll {
