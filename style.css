@@ -47,9 +47,10 @@ li a {
 }
 
 li a:hover{
-    font-family: freighttextcmp-pro, serif;
-    font-weight: 300;
-    font-style: italic;
+  font-family: freighttextcmp-pro, serif;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration:none;
 }
 
 h1 {
