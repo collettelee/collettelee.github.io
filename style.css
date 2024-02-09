@@ -21,17 +21,6 @@ h1 {
   font-style: normal;
 }
 
-/* span {
-  border-right: .05em solid;
-  animation: caret 1s steps(1) infinite;
-}
-
-@keyframes caret {
-  50% {
-    border-color: transparent;
-  }
-}
- */
 nav {
   overflow: hidden;
   position: sticky;
@@ -405,7 +394,7 @@ a:visited {
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  background-color: #c0dceb;
+  background-color: black;
   border-style: none none solid none;
   border-width:1px;
   border-color:black;
@@ -419,7 +408,7 @@ a:visited {
   min-width: 100%;
   animation: scroll 20s linear infinite;
   flex: 0 0 auto;
-  color: black;
+  color: white;
   font-family: Helvetica;
 /*   margin: 2px;
   padding: 0.5rem 1rem;
