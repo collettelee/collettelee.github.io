@@ -82,7 +82,9 @@ h1 {
   min-width: 100%;
   animation: scroll 20s linear infinite;
   flex: 0 0 auto;
-  font-family: Helvetica;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   text-align: center;
 }
 
