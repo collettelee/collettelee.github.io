@@ -412,10 +412,6 @@ a:visited {
   text-align: center;
 }
 
-.marquee__content p {
-    color: white;
-}
-
 @keyframes scroll {
   from {
     transform: translateX(0);
