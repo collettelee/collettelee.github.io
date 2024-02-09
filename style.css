@@ -60,6 +60,40 @@ h1 {
   font-style: normal;
 }
 
+.marquee {
+  --gap: 1rem;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  background-color: black;
+  border-style: none none solid none;
+  border-width:1px;
+  border-color:black;
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll 20s linear infinite;
+  flex: 0 0 auto;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
 /* .intro {
   display: block;
   border: 1px;
@@ -76,7 +110,7 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   width:75%;
-}
+} */
 
 .center {
   display: block;
@@ -84,7 +118,7 @@ h1 {
   width: 30%;
 }
 
-.portrait-center {
+/* .portrait-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -383,38 +417,4 @@ a:visited {
     width:75%;
   }
   
-}
-
-.marquee {
-  --gap: 1rem;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  user-select: none;
-  gap: var(--gap);
-  background-color: black;
-  border-style: none none solid none;
-  border-width:1px;
-  border-color:black;
-}
-
-.marquee__content {
-  flex-shrink: 0;
-  display: flex;
-  justify-content: space-around;
-  gap: var(--gap);
-  min-width: 100%;
-  animation: scroll 20s linear infinite;
-  flex: 0 0 auto;
-  font-family: Helvetica;
-  text-align: center;
-}
-
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(calc(-100% - var(--gap)));
-  }
 }
