@@ -1,24 +1,13 @@
-
-hr {
-    
-    background-color:white;
-}
-
 body {
   background-color: white;
-  color: white;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: 100%;
-}
-
-
-h1 {
-  color: black;
-  font-size: 25px;
-  font-family: Helvetica, sans-serif;
-  font-weight: 200;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 300;
   font-style: normal;
+  font-size: 16 px;
+  font-color: black;
 }
 
 nav {
@@ -44,13 +33,12 @@ ul {
 li {
   display:block;
   float: center;
-  font-family: Helvetica, sans-serif;
+  text-align:center;
+  font-family: freighttextcmp-pro, serif;
   font-weight: 300;
   font-style: normal;
-  color: black;
-  text-align:center;
-  font-size: 18px;
-  padding: 0px 10px;
+  font-size: 18 px;
+  padding: 0 px 10 px;
   text-decoration: none;
 }
 
@@ -59,10 +47,20 @@ li a {
 }
 
 li a:hover{
-    text-decoration:underline;
+    font-family: freighttextcmp-pro, serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
-.intro {
+h1 {
+  color: black;
+  font-size: 25 px;
+  font-family: nimbus-sans-extended, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .intro {
   display: block;
   border: 1px;
   width: 30%;
@@ -103,7 +101,7 @@ li a:hover{
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-}
+} */
 
 p {
   color: black;
