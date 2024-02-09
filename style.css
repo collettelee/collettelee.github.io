@@ -88,6 +88,7 @@ h1 {
   font-style: normal;
   font-size: 14px;
   text-align: center;
+  margin: -5px;
 }
 
 @keyframes scroll {
