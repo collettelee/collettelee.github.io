@@ -6,7 +6,7 @@ body {
   font-family: nimbus-sans, sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 16 px;
+  font-size: 16px;
   font-color: black;
 }
 
@@ -25,8 +25,8 @@ nav {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 2;
+  padding: 2;
   overflow: hidden;
 }
 
@@ -37,12 +37,12 @@ li {
   font-family: freighttextcmp-pro, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30 px;
   text-decoration: none;
 }
 
 li a {
   text-decoration:none;
+  font-size:18px;
 }
 
 li a:hover{
