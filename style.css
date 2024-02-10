@@ -13,13 +13,13 @@ body {
 nav {
   overflow: hidden;
   position: sticky;
+  top: 0px;
   background-color: white;
   padding-bottom: 4px;
   border-style: none none solid none;
   border-color: black;
   border-width: 1px;
   z-index:950;
-  top: 0;
   width: 100%;
 }
 
