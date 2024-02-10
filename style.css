@@ -101,6 +101,7 @@ h1 {
 }
 
 img {
+  float: left;
   object-fit: cover;
   width: 50%;
   aspect-ratio:1;
