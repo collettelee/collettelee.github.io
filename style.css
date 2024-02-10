@@ -42,7 +42,7 @@ li {
 
 li a {
   text-decoration:none;
-  font-size:18px;
+  font-size:20px;
 }
 
 li a:hover{
@@ -54,7 +54,7 @@ li a:hover{
 
 h1 {
   color: black;
-  font-size: 25 px;
+  font-size: 25px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
   font-style: normal;
