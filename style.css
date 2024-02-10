@@ -12,8 +12,8 @@ body {
 
 nav {
   overflow: hidden;
-  position: sticky;
-  top: 0px;
+  position: fixed;
+  top: 0;
   background-color: white;
   padding-bottom: 4px;
   border-style: none none solid none;
@@ -65,7 +65,7 @@ h1 {
 .marquee {
   --gap: 1rem;
   position: relative;
-  display: flex;
+  display: block;
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
