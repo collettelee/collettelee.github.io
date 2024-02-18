@@ -114,6 +114,7 @@ img {
   aspect-ratio:1;
   border-style: solid;
   border-color: black;
+  border-width: 0.25px;
 }
 
 
