@@ -78,6 +78,11 @@ h1 {
   border-color:black;
 }
 
+.marquee ul{
+  margin:0;
+  padding:0;
+}
+
 .marquee__content {
   flex-shrink: 0;
   display: flex;
