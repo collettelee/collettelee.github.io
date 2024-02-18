@@ -67,7 +67,8 @@ h1 {
 .marquee {
   --gap: 1rem;
   position: relative;
-  display: block;
+  display: flex;
+  margin-top:40px;
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
@@ -90,7 +91,6 @@ h1 {
   font-style: normal;
   font-size: 14px;
   text-align: center;
-  margin: -5px;
 }
 
 @keyframes scroll {
