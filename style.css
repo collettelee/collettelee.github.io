@@ -68,7 +68,7 @@ h1 {
   --gap: 1rem;
   position: relative;
   display: flex;
-  margin-top:40px;
+  margin-top:45px;
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
