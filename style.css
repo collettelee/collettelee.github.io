@@ -107,6 +107,11 @@ h1 {
   }
 }
 
+.thumbnail {
+  display: block;
+  float: left;
+  width: 50%;
+}
 img {
   float: left;
   width: 50%;
