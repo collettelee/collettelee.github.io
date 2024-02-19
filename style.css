@@ -108,6 +108,7 @@ h1 {
 }
 
 .thumbnail {
+  position: relative;
   float: left;
   display: block;
   width: 50%;
