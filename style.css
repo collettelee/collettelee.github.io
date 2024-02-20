@@ -421,8 +421,18 @@ a:visited {
     margin-bottom: 20px;
   }
 
-  img {
+  .thumbnail {
     width:100%;
+    border-style: solid;
+    border-width: 0 0 0.5px 0;
+  }
+
+  .left {
+    border-style: none;
+  }
+
+  .right {
+    border-style: none;
   }
 
 /*   .column {
