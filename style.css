@@ -157,32 +157,13 @@ h1 {
   opacity: 1;
 }
 
-
-/* .intro {
-  display: block;
-  border: 1px;
-  width: 30%;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.title {
-  display: block;
-  margin:60px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
-  width:75%;
-} */
-
 .center {
   display: block;
   margin: auto;
   width: 30%;
 }
 
-/* .portrait-center {
+ .portrait-center {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -199,95 +180,7 @@ h1 {
   width: 60%;
   margin-top: 30px;
   margin-bottom: 30px;
-} */
-
-/* p {
-  color: black;
-  line-height: 125%;
-  font-size: 80%;
-  font-family: Helvetica, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-} */
-
-.column {
-  display: block;
-  text-align: center;
-  color: white;
-  float: left;
-  width: 100%;
-}
-.textcolumncenter {
-  display: block;
-  text-align: left;
-  color: white;
-  float: left;
-  width: 75%;
-  padding-left:10px;
-  padding-bottom:10px;
-}
-
-.textcolumnside {
-  display: block;
-  text-align: left;
-  color: white;
-  float: left;
-  width: 12%;
-  padding-bottom:10px;
-}
-
-.textcolumncenter p {
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 80%;
-  font-family: Helvetica, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.textcolumnside p {
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 80%;
-  font-family: Helvetica, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.column p {
-  color: black;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 80%;
-  font-family: Helvetica, sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.shift {
-  color:rgb(7, 198, 138);
-/*   margin-left:10%;
-  margin-right:10%; */
-  padding-bottom:8%;
-  margin-bottom:5%;
-  border: 1.5px dashed white;
-
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-
-}
+} 
 
 a:link {
   color: black;
@@ -326,92 +219,6 @@ a:visited {
     text-align:left;
 }
 
-* {box-sizing:border-box}
-.mySlides1, .mySlides2, .mySlides3, .mySlides4, .mySlides5, .mySlides6, .mySlides7, .mySlides8, .mySlides9, .mySlides10, .mySlides11, .mySlides12, .mySlides13, .mySlides14, .mySlides15, .mySlides16, .mySlides17, .mySlides18 {display: none}
-
-/* Slideshow container */
-.slideshow-container {
-  display:block;
-  width:75%;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  background-image: url(https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png);
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-      margin-left:-50px;
-  margin-right:-50px;
-  padding: 16px;
-  color: #ffbfee;
-  font-weight: bold;
-  font-size: 18px;
-  text-shadow: 2px 4px 4px rgba(0,0,0,0.6);
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-} */
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-
-/* @media only screen and (max-width: 750px) {
-
-    h2 {
-    font-size: 14px;
-  }
-    p {
-    font-size: 11px;
-  }
-    
-    .navbar a {
-        font-size:14px;
-    }
-
-} */
-
 @media only screen and (max-width: 500px) {
     
     p {
@@ -435,37 +242,6 @@ a:visited {
   .right {
     border-style: none;
   }
-
-/*   .column {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-    
-  .textcolumncenter {
-      width:65%;
-    }
-    
-    .textcolumnside {
-        width:15%;
-    }
-    
-
-  .column img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-
-  }
-    
-  .textcolumncenter p {
-      font-size:60%;
-    }
-    
-    .textcolumnside p {
-      font-size:60%;
-    } */
   
   .portrait-center {
     width:75%;
