@@ -186,7 +186,7 @@ h3 {
 
 .description {
   position: relative;
-  float: left;
+  float: center;
   display: block;
   width: 25%;
   padding: 30px;
@@ -195,7 +195,7 @@ h3 {
 
 .hero {
   position: relative;
-  float: right;
+  float: center;
   display: block;
   width: 75%;
   padding: 10px;
