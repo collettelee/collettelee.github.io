@@ -177,11 +177,18 @@ h3 {
   width: 30%;
 }
 
-.project-center {
+.hero {
+  display: block;
+  margin:auto;
+  width: 90%;
+  margin-top:70px;
+  margin-bottom: 50px;
+}
+
+.description {
   display: block;
   margin: auto;
   width: 75%;
-  margin-top:100px;
   margin-bottom:50px;
 }
 
