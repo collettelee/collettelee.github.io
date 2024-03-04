@@ -184,18 +184,17 @@ h1 {
 
 a:link {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover,
 a:active {
-  font-style: italic;
   text-decoration: underline;
 }
 
 a:visited {
   color: black;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer {
