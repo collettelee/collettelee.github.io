@@ -176,6 +176,12 @@ h3 {
   width: 30%;
 }
 
+.project-center {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+
  .portrait-center {
   display: block;
   margin-left: auto;
