@@ -180,8 +180,7 @@ h3 {
 .hero {
   display: block;
   margin:auto;
-  width: 90%;
-  margin-bottom: 50px;
+  margin-top:42px;
 }
 
 .description {
@@ -190,6 +189,12 @@ h3 {
   width: 30%;
   margin-top:50px;
   margin-bottom:50px;
+}
+
+.content {
+  display: block;
+  margin:auto;
+  padding: 5%;
 }
 
  .portrait-center {
