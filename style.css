@@ -190,24 +190,11 @@ h3 {
   clear: both;
 }
 
-.hero {
-  display: block;
-  margin:auto;
-  margin-top:42px;
-  border-style: solid;
-  border-width: 0 0 0.5px 0;
-}
-
-.description {
-  display: block;
-  margin: auto;
-  width: 30%;
-}
 
 .content {
   display: block;
   margin:auto;
-  padding: 5%;
+  width: 90%;
 }
 
  .portrait-center {
