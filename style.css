@@ -177,6 +177,20 @@ h3 {
   width: 30%;
 }
 
+.proj_title {
+  display: block;
+  float: left;
+  padding: 70px;
+  width: 50;
+}
+
+.proj_desc {
+  display: block;
+  float: left;
+  padding: 70px;
+  width: 50%;
+}
+
 .hero {
   display: block;
   margin:auto;
