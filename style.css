@@ -190,11 +190,16 @@ h3 {
   clear: both;
 }
 
+.hero {
+  display: block;
+  margin:auto;
+  width: 100%;
+}
 
 .content {
   display: block;
   margin:auto;
-  width: 90%;
+  width: 95%;
 }
 
  .portrait-center {
