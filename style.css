@@ -178,15 +178,17 @@ h3 {
 }
 
 .proj_column {
+  position: relative;
   float: left;
+  display: block;
   width: 50%;
 }
 
-.proj_row:after {
+/* .proj_row:after {
   content: "";
   display: table;
   clear: both;
-}
+} */
 
 .hero {
   display: block;
