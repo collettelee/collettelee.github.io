@@ -276,8 +276,8 @@ a:visited {
         font-size: 90%;
     }
 
-  .intro {
-    margin-bottom: 20px;
+  .proj_intro {
+    width:100%;
   }
 
   .thumbnail {
