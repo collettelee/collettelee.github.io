@@ -178,9 +178,9 @@ h3 {
 }
 
 .proj_intro {
-  display: nblock;
-  padding-top: 42px;
+  display: block;
   width: 35%;
+  padding-top:64px;
 }
 
 .proj_column {
@@ -191,10 +191,11 @@ h3 {
 }
 
 .proj_row {
-  width:90%;
+  width:85%;
   margin:auto;
-  padding-bottom: 10px;
+  padding: 10px;
 }
+
 .proj_row:after {
   content: "";
   display: table;
@@ -272,7 +273,7 @@ a:visited {
 @media only screen and (max-width: 500px) {
     
     p {
-        font-size:60%;
+        font-size: 90%;
     }
 
   .intro {
