@@ -179,8 +179,7 @@ h3 {
 
 .proj_intro {
   display: nblock;
-  padding-top: 40px;
-  margin: 50px auto 50px auto;
+  padding-top: 42px;
   width: 35%;
 }
 
@@ -191,6 +190,11 @@ h3 {
   width: 50%;
 }
 
+.proj_row {
+  width:90%;
+  margin:auto;
+  padding-bottom: 10px;
+}
 .proj_row:after {
   content: "";
   display: table;
