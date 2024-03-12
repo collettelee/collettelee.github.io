@@ -192,6 +192,7 @@ h3 {
 }
 
 .proj_row {
+  display:block;
   width:85%;
   margin:auto;
   padding: 10px;
