@@ -203,6 +203,11 @@ h3 {
   padding: 10px;
 }
 
+.proj_row img {
+  margin: auto;
+  width: 100%;
+}
+
 .proj_row:after {
   content: "";
   display: table;
