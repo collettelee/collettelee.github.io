@@ -208,10 +208,6 @@ h3 {
   width: 100%;
 }
 
-.proj_row p {
-  margin: 0;
-}
-
 .proj_row:after {
   content: "";
   display: table;
