@@ -20,7 +20,7 @@
         display: grid;
         grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
         grid-column-gap: 2%;
-        grid-row-gap: 40px;
+        grid-row-gap: 1.35%;
         font-size:0;
       }
 
@@ -28,72 +28,14 @@
         align-items: flex-start;
       }
 
-      .center {
-        width:23.5%;
-        float:left;
-        font-size:0;
-      }
-
-      .email_column_left {
-        display: block;
-        margin: auto;
-        width:23.5%;
-        float:left;
-        font-size:0;
-        padding-right:1%;
-      }
-
-     .email_column_middle_1 {
-        display: block;
-        margin: auto;
-        width:23.5%;
-        float:left;
-        font-size:0;
-        padding:0 1% 0 1%;
-      }
-
-      .email_column_middle_2 {
-        display: block;
-        margin: auto;
-        width:23.5%;
-        float:left;
-        font-size:0;
-        padding:0 1% 0 1%;
-      }
-
-      .email_column_right {
-        display: block;
-        margin: auto;
-        width:23.5%;
-        float:left;
-        font-size:0;
-        padding-left:1%;
-      }
-
       .proj_column {
         font-size:0;
       }
       
       @media only screen and (max-width: 500px) {
-      .email_column_left {
-        width:49%;
-        padding: 1% 1% 1% 0;
-        }
-
-        .email_column_middle_1 {
-        width:49%;
-        padding: 1% 0 3% 1%;
-        }
-
-        .email_column_middle_2 {
-        width:49%;
-        padding: 1% 1% 1% 0;
-        }
-
-        .email_column_right {
-        width:49%;
-        padding: 1% 0 1% 1%;
-        }
+     .grid {
+      grid-template-columns: 49% 49%;
+     }
       }
     </style>
   </head>
@@ -185,7 +127,7 @@
 </div>
 
 <div class="proj_row">
-  <p style="margin-top:0">Promo and sales emails.</p>
+  <p>Promo and sales emails.</p>
 </div>
 
  <div class="proj_row">
