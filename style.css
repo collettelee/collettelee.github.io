@@ -196,6 +196,15 @@ h3 {
   width: 50%;
 }
 
+section {
+  width: 85%;
+  margin: auto;
+}
+
+section img {
+ width: 100%;
+}
+
 .proj_row {
   display:block;
   width:85%;
