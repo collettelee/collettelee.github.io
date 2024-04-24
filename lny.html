@@ -37,10 +37,30 @@
       .grid_items {
         align-items: flex-start;
       }
+
+      .column_left {
+        width:49%;
+        padding-right:1%
+      }
+
+      .column_right {
+        width: 49%;
+        padding-left: 1%;
+      }
       
       @media only screen and (max-width: 500px) {
         .grid {
           grid-template-columns: auto;
+        }
+
+        .column_left {
+          width:100%;
+          padding:0;
+        }
+
+       .column_right {
+          width:100%;
+          padding:0;
         }
       }
     </style>
@@ -88,13 +108,13 @@
 
  <div class="proj_row" style="margin-bottom: 42px">
       
-      <div class="proj_column" style="width:49%;padding-right:1%">
+      <div class="column_left" style="width:49%;padding-right:1%">
         <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/922300745?h=7727c2714f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="YENSA Lunar New Year 2024 PR Box"></iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
-      <div class="proj_column" style="width:49%;padding-left:1%">
+      <div class="column_right" style="width:49%;padding-left:1%">
         <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/e726a524-67c5-4792-9ae0-0a61f3f2f6bf">
       </div>
    
