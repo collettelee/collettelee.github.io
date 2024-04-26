@@ -196,7 +196,6 @@ section img {
   display: block;
   width: 45%;
   padding-top:64px;
-  margin-bottom: 25px;
 }
 
 .proj_column {
@@ -226,11 +225,6 @@ section img {
   content: "";
   display: table;
   clear: both;
-}
-
-.caption {
-  display: block;
-  padding: 0 0 12px 0;
 }
 
  .portrait-center {
