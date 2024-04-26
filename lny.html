@@ -18,6 +18,8 @@
 
       .full-photo {
         margin: auto auto 15px auto;
+        aspect-ratio: 3/2;
+        object-fit: cover;
       }
       
       .grid {
@@ -40,6 +42,12 @@
       }
       
       @media only screen and (max-width: 500px) {
+
+      .full-photo {
+        aspect-ratio: default;
+        object-fit: none;
+      }
+        
         .grid {
           grid-template-columns: auto;
         }
@@ -94,7 +102,7 @@
     </div>
   </div>
 
-  <div class="full-photo" style="margin-bottom:0">
+  <div class="full-photo" style="margin-bottom:0; aspect-ratio: default; object-fit: none">
     <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c0348e8a-d782-4345-ad21-77cc86d33365">
   </div>
 
