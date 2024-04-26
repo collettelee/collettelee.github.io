@@ -18,7 +18,6 @@
 
       .pr_grid {
         display: grid;
-        margin: auto;
         grid-template-columns: auto auto;
         grid-column-gap: 15px;
         grid-row-gap: 15px;
@@ -26,31 +25,19 @@
       }
       .email_grid {
         display: grid;
-        margin: auto;
         grid-template-columns: auto auto auto auto;
         grid-column-gap: 15px;
         grid-row-gap: 15px;
         font-size:0;
       }
-
-      .grid_items {
-        align-items: flex-start;
-      }
-
-      .caption {
-        display:block;
-        padding: 0 0 12px 0;
-      }
       
       @media only screen and (max-width: 500px) {
      .email_grid {
       grid-template-columns: auto auto;
-       grid-row-gap: 15px;
      }
 
      .pr_grid {
       grid-template-columns: auto auto;
-       grid-row-gap: 15px;
      }
   }
     </style>
