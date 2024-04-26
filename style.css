@@ -228,16 +228,9 @@ section img {
   clear: both;
 }
 
-.hero {
+.caption {
   display: block;
-  margin:auto;
-  width: 100%;
-}
-
-.content {
-  display: block;
-  margin:auto;
-  width: 95%;
+  padding: 0 0 12px 0;
 }
 
  .portrait-center {
