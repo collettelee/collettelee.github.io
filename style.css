@@ -172,6 +172,20 @@ h3 {
   opacity: 1;
 }
 
+section {
+  padding-bottom: 15px;
+  margin: auto;
+  width:85%;
+}
+
+section img {
+ width: 100%;
+}
+
+.grid-items {
+  align-items: flex-start;
+}
+
 .center {
   display: block;
   margin: auto;
@@ -195,15 +209,6 @@ h3 {
 .proj_column img {
   margin: auto;
   width: 50%;
-}
-
-section {
-  width: 85%;
-  margin: auto;
-}
-
-section img {
- width: 100%;
 }
 
 .proj_row {
