@@ -16,18 +16,45 @@
 
     <style>
 
-      .card {
-        width:23%;
-        float:left;
-        padding:1%;
+      .full-photo {
+        margin: auto auto 15px auto;
       }
+
+      .card_grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size:0;
+      }
+
+      .poster_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size:0;
+      }
+
+      .story_grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size:0;
+      }
+      
       @media only screen and (max-width: 500px) {
-        .center {
-        width:100%;
+        .card_grid {
+            grid-template-columns: auto auto;
+          }
+
+        .poster_grid {
+          grid-template-columns: auto;
         }
 
-        .card{
-          width:100%;
+        .story_grid {
+          grid-template-columns: auto;
         }
       }
     </style>
@@ -42,58 +69,80 @@
         </ul>
     </nav>
 
-    <div class="proj_row">
+    <section">
     <div class="proj_intro">
             <h2>UCLA Summer Institute Playing Cards</h2>
             <h3>BRANDING / DECK OF CARDS / MERCHANDISE</h3>
-      <p>In my role as the 2023 Designer in Residence at the UCLA School of the Arts and Architecture, I designed a special edition 54-card playing deck gifted to high school students attending the sold-out UCLA Arts Summer Institute program. I developed and illustrated a summery, playful, and colorful visual style that appeals to teenage consumers, along with face cards that stray from gender norms. 
-        The designs utilize simple, “imperfect” cut-out shapes to emulate scrapbooks one would make at summer camp.</p>
+      <p>Selected works designed for the UCLA School of the Arts and Architecture in my role as their Designer in Residence.</p>
       </div>
-    </div>
-    
-    <div class="proj_row">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/949ec7c1-e203-4661-b657-2fdfd1e1e52a" style="width:100%">
-</div>
+    </section>
 
-    <div class="proj_row" style="padding:0">
-      <div class="card">
+<section>
+    
+   <div class="full-photo">
+      <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/949ec7c1-e203-4661-b657-2fdfd1e1e52a">
+   </div>
+
+   <div class="card_grid">
+      
+      <div class="grid-items">
       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/225d2534-9797-4ea7-be82-0b4707721fc2">
       </div>
 
-      <div class="card">
+      <div class="grid-items">
       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/7098d524-4f20-4c6a-a189-7eb56eeba119">
       </div>
 
-      <div class="card">
+      <div class="grid-items">
       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/cb94a3f9-6ec6-488c-a4d7-4fcaaf93c8d9">
       </div>
       
-      <div class="card">
+      <div class="grid-items">
       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/7859384f-99be-433d-acca-14b8cc7d5459">
       </div>
-      </div>
+     
+   </div>
+  
+  <div class="full-photo">
+      <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/99634c47-fa43-4602-a2dd-6c4c9df9540a">
+   </div>
 
-    <div class="proj_row" style="padding:0">
-      <div class="card">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/dda0d2bf-b2bb-4cf4-9339-75572a29623d">
-      </div>
-      <div class="card">
-        <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/1671f3f0-bc24-44b0-848c-0d8c351ae0a6">
-      </div>
+  <p>Deck of playing cards gifted to students attending the sold-out UCLA Arts Summer Institute 2023.</p>
+  
+</section>
 
-      <div class="card">
-        <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/3d27b796-646e-46db-a6a5-3a8a6daa1768">
+<section>
+  <div class="poster_grid">
+      <div class="grid-items">
+        <img src="https://user-images.githubusercontent.com/98932808/231651086-c492f9bd-820b-4082-af5f-b172a88dcd90.png">
       </div>
-
-      <div class="card">
-        <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/29278514-f39d-4776-80c5-ad4cbf0bde03">
-
+    <div class="grid-items">
+        <img src="https://user-images.githubusercontent.com/98932808/231651079-18c7ab76-7c46-4d76-8335-5debd9e1aa40.png">
       </div>
-    </div>
+  </div>
+  <p>Posters detailing the Summer 2023 curriculum for the Department of World Arts and Cultures/Dance, displayed on bulletin boards in Broad Art Center.</p>
+</section>
 
-<div class="proj_row"  style="margin-bottom:42px">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/99634c47-fa43-4602-a2dd-6c4c9df9540a" style="width:100%">
-</div>
+    <section>
+      <div class="story_grid">
+        <div class="grid-items">
+          <img src="https://user-images.githubusercontent.com/98932808/232946126-b45999fe-909a-46f9-b74e-92db7b3c68bf.png">
+        </div>
+        <div class="grid-items">
+          <img src="https://user-images.githubusercontent.com/98932808/232946065-cb977024-187a-412c-b9b2-c5cb27a2211e.png">
+        </div>
+        <div class="grid-items">
+          <img src="https://user-images.githubusercontent.com/98932808/232946082-af5bab6b-2c73-4bbe-bfab-7084201b629a.png">
+        </div>
+        <div class="grid-items">
+          <img src="https://user-images.githubusercontent.com/98932808/232946096-a84f1989-fadb-448d-8c02-87470fc7becd.png">
+        </div>
+        <div class="grid-items">
+          <img src="https://user-images.githubusercontent.com/98932808/232946114-10a2c64a-d530-4536-9f36-2fa2d3af9b96.png">
+        </div>
+      </div>
+      <p>Instagram stories promoting the UCLA School of the Arts and Architecture's 2023 Summer Sessions course catalog.</p>
+    </section>
         
  <div class="footer">
       <p>Hand-coded with <3 by Collette Lee, 2024</p>
