@@ -15,6 +15,21 @@
 
     <script src="/script.js" defer></script>
 
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        font-size:0;
+      }
+
+      @media only screen and (max-width: 500px) {
+     .grid {
+      grid-template-columns: auto;
+     }
+         
+    </style>
     
   </head>
   <body>
@@ -27,27 +42,35 @@
         </ul>
     </nav>
 
-    <div class="proj_row">
+    <section>
     <div class="proj_intro">
             <h2>IBM AI Governance</h2>
             <h3>2D & 3D ANIMATION / VIDEO / ILLUSTRATION</h3>
       <p>As a Visual Design Intern at IBM, I created a 3-minute long informative video educating IBMers 
           and clients on the AI governance capabilities of Cloud Pak for Data.</p>
       </div>
-    </div>
-    
-    <div class="proj_row">
-    <div class="hero">
-  <img src="https://user-images.githubusercontent.com/98932808/209775923-9d0f1605-c1e8-4236-8be2-26e1328622fa.gif" style="width:50%;float:left">
-    <img src="https://user-images.githubusercontent.com/98932808/209893192-7c119a10-6d74-4bb1-925d-264e4c188e8a.gif" style="width:50%;float:left">
-  <img src="https://user-images.githubusercontent.com/98932808/209893190-697eb42c-0a56-448e-9485-e15348a8e86c.gif" style="width:50%;float:left">
-  <img src="https://user-images.githubusercontent.com/98932808/209893177-e323db2d-6619-4df3-9728-f21861d70a4c.gif" style="width:50%;float:left">
-</div>
-  </div>
+    </section>
 
-    <div class="proj_row" style="margin-bottom:42px">
+    <section>
+    <div class="grid">
+    <div class="grid-items">
+      <img src="https://user-images.githubusercontent.com/98932808/209775923-9d0f1605-c1e8-4236-8be2-26e1328622fa.gif">
+    </div>
+    <div class="grid-items">
+    <img src="https://user-images.githubusercontent.com/98932808/209893192-7c119a10-6d74-4bb1-925d-264e4c188e8a.gif">
+    </div>
+      <div class="grid-items">
+  <img src="https://user-images.githubusercontent.com/98932808/209893190-697eb42c-0a56-448e-9485-e15348a8e86c.gif">
+      </div>
+      <div class="grid-items">
+  <img src="https://user-images.githubusercontent.com/98932808/209893177-e323db2d-6619-4df3-9728-f21861d70a4c.gif" style="width:50%;float:left">
+      </div>
+</div>
+  </section>
+
+    <section style="margin-bottom:42px">
    <div style="padding:56.25% 0 0 0;position:relative"><iframe src="https://player.vimeo.com/video/748206454?h=c7c4f32f91&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="IBM AI Governance"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-  </div>
+  </section>
         
  <div class="footer">
       <p>Hand-coded with <3 by Collette Lee, 2024</p>
