@@ -14,11 +14,26 @@
     
     <style>
       
-       @media only screen and (max-width: 480px) {
-         
-
-         
+      .grid {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
       }
+
+      .grid img {
+        width: 75%;
+      }
+
+      .grid-items {
+        align-items: center;
+      }
+
+      @media only screen and (max-width: 500px) {
+     .grid {
+      grid-template-columns: auto;
+      grid-row-gap: 15px;
+     }
       
     </style>
 
@@ -55,12 +70,13 @@
 
 <div style="width:65%; margin: 100px auto auto auto">
 
-  <div style="float:left; width: 30%">
-    <img src="https://user-images.githubusercontent.com/98932808/231251353-4e9bda07-48e4-4c89-b0ba-34ffb44b0df9.png" style="width:75%">
-  </div>
+  <div class="grid">
+    <div class="grid-items">
+    <img src="https://user-images.githubusercontent.com/98932808/231251353-4e9bda07-48e4-4c89-b0ba-34ffb44b0df9.png">
+    </div>
 
-  <div style="float:left; width:70%">
-    <p>
+    <div class="grid-items">
+       <p>
         Collette is a multidisciplinary designer and creative based in Los Angeles, CA. She currently works as a graphic designer for YENSA Beauty. Specializing in brand collateral, interactive experiences, and creative direction, she is interested in fusing simplicity and play to convey compelling narratives. 
         She holds a B.A. in Design|Media Arts from the University of California, Los Angeles. Past clients include IBM and the UCLA School of the Arts and Architecture.
      </p>
@@ -71,6 +87,7 @@
       <p>
        <a href="https://colllette.tumblr.com/" target="_blank" style="text-decoration:underline">Mood board</a>
     </p>
+    </div>
   </div>
   
 </div>
