@@ -16,13 +16,26 @@
 
     <style>
 
-      .center {
-        width: 48%;
+      .full-photo {
+        margin-bottom: 15px;
+        width: 75%;
+      }
+
+      .phone_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size:0;
       }
       
       @media only screen and (max-width: 500px) {
-        .center {
+        .full-photo {
         width:100%;
+        }
+
+        .phone_grid {
+          grid-template-columns: auto;
         }
       }
     </style>
@@ -37,28 +50,30 @@
         </ul>
     </nav>
 
-    <div class="proj_row">
+    <section>
     <div class="proj_intro">
             <h2>Take It Slow</h2>
             <h3>ALBUM ARTWORK / 3D</h3>
-      <p>Album cover commissioned by Los Angeles-based producer and rapper QU/NTEN for his 2023 single “Take it Slow”. Available on all music streaming services for your listening and viewing pleasure.</p>
+      <p>Album cover commissioned by Los Angeles-based producer and rapper QU/NTEN for his 2023 single “Take it Slow,” available on all music streaming services.</p>
       </div>
-    </div>
-    
-    <div class="proj_row" style="width:75%">
+    </section>
+
+<section style="margin-bottom: 42px"
+    <div class="full-photo">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c3478465-a247-4429-9c65-5e7fa12b70e5">
 </div>
 
-  <div class="proj_row"  style="margin-bottom:42px">
-    <div class="center" style="float:left; padding:1%">
+<div class="phone_grid">
+    <div class="grid-items">
       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c0487bd5-b0bf-4e54-ab40-5bf97ea5ccc5">
     </div>
 
-     <div class="center" style="float:left;padding:1%">
+     <div class="grid-items">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/4b569d12-3a05-4d11-8e55-8a42468a3b40">
+    </div>
   </div>
     
-    </div>    
+    </section>    
 
         
  <div class="footer">
