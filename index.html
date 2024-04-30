@@ -15,6 +15,80 @@
 
     <script src="/script.js" defer></script>
 
+    <style>
+      .grid {
+       display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+        font-size:0;
+        overflow: hidden;
+        gap: var(--gap);
+      }
+
+      .grid-items {
+        position: relative;
+        --gap: 2em;
+        --line-offset: calc(var(--gap) / 2);
+        --line-thickness: 0.5px;
+        --line-color: black;
+      }
+
+      .grid-items::before, 
+      .grid-items::after {
+        content: '';
+        position: absolute;
+        background-color: var(--line-color);
+        z-index: 1;
+      }
+
+      .grid-items::before {
+        inline-size: 100vw;
+        block-size: var(--line-thickness);
+        inset-inline-start: 0;
+        inset-block-start: calc(var(--line-offset) * -1);
+      }
+
+      .grid-items::after {
+        inline-size: var(--line-thickness);
+        block-size: 100vh;
+        inset-block-start: 0;
+        inset-inline-start: calc(var(--line-offset) * -1);
+      }
+
+
+      .grid-items img {
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1;
+      }
+
+      .grid-items p {
+        text-align: center;
+        font-family: freighttextcmp-pro, serif;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 50px;
+        line-height: 42px;
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+      }
+
+      .grid-items:hover img {
+        opacity: 0.3;
+        transition: 0.5s ease;
+      }
+
+      .grid-items:hover p {
+        opacity: 1;
+      }
+      
+    </style>
     
   </head>
   <body>
@@ -43,26 +117,24 @@
     </ul>
   </div>  
 
- <div class="thumbnail">
-  <div class="left">
+<div class="grid">
+  
+ <div class="grid-items">
     <a href="lny">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/133715eb-48b4-48f3-b411-1cea14e1106d">
     <p>YENSA Lunar New Year</p>
     </a>
-  </div>
 </div>
 
-<div class="thumbnail">
-  <div class="right">
+<div class="grid-items">
     <a href="yensa">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/1efde35d-c40c-46a0-b181-e0c23a6dc8e4">
     <p>YENSA</p>
     </a>
-  </div>
 </div>
     
-<div class="thumbnail">
-  <div class="left" style="background-color:#eae8d9">
+<div class="grid-items">
+  <div style="background-color:#eae8d9">
     <a href="jooy">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/43d91fc3-ad0c-4b48-9263-55d74abcd242" style="object-fit:contain">
     <p>JooY</p>
@@ -70,443 +142,42 @@
   </div>
 </div>
 
-<div class="thumbnail">
-  <div class="right">
+<div class="grid-items">
     <a href="ibm">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/11052f97-62b2-41ec-ba44-ffd6af951c6b">
     <p>IBM AI Governance</p>
       </a>
-  </div>
 </div>
 
-<div class="thumbnail">
-  <div class="left">
+<div class="grid-items">
   <a href="uclaarts">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/949ec7c1-e203-4661-b657-2fdfd1e1e52a">
     <p>UCLA Arts</p>
   </a>
-  </div>
 </div>
 
-<div class="thumbnail">
-  <div class="right">
+<div class="grid-items">
   <a href="takeitslow">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c3478465-a247-4429-9c65-5e7fa12b70e5">
     <p>Take It Slow</p>
   </a>
-  </div>
 </div>
 
-<div class="thumbnail">
-  <div class="left">
+<div class="grid-items">
   <a href="spoiled">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/726e1073-f962-4b49-a8e0-3b3edd322505">
     <p>Spoiled</p>
   </a>
-  </div>
 </div>
 
-<div class="thumbnail">
-  <div class="right">
+<div class="grid-items">
   <a href="osaka">
   <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/9faa11d7-6ca3-4141-afe1-cf6047434a48">
     <p>Osaka Film Stills</p>
   </a>
-  </div>
 </div>
-    
-<!-- 
-     <div class="slideshow-container">
-  
 
-  <div class="mySlides4">
-    <div class="row">
-    <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/e67ebaf4-fb7f-439d-86bd-2c5e18a08b2f" style="width:50%;float:left;padding:0%">
-    <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/85b48706-6831-44da-9065-d3d9c7815f18" style="width:50%;float:left;padding:0%">
-
-    </div>
-  </div>
-
-<div class="mySlides4">
-   
-    <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c0348e8a-d782-4345-ad21-77cc86d33365" style="width:100%">
-
-    </div>
-       
-  
-  
-  <a class="prev" onclick="plusSlides(-1,3)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,3)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-  
 </div>
-    
-    <div class="row">
-      <div class="textcolumnside">
-            <p> <i>YENSA Lunar New Year 2024 </i></p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p><b>Exclusive Lunar New Year kit and PR box</b> celebrating the Year of the Dragon, featuring a special-edition tin and 4 lip products. Sold on retail site and shipped to influencers on YENSA beauty's PR list.</p>
-
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Packaging, Product, Print </p>
-      </div>
-    </div>
-    
-    <hr>
-    <br>
-    
-   <div class="slideshow-container">
-  
-  <div class="mySlides3">
-    
-    <div class="row">
-    <img src="https://user-images.githubusercontent.com/98932808/209775923-9d0f1605-c1e8-4236-8be2-26e1328622fa.gif" style="width:50%;float:left;margin:0px">
-    <img src="https://user-images.githubusercontent.com/98932808/209893192-7c119a10-6d74-4bb1-925d-264e4c188e8a.gif" style="width:50%;float:left;margin:0px">
-   </div>
-   
-   <div class="row">
-    
-   <img src="https://user-images.githubusercontent.com/98932808/209893190-697eb42c-0a56-448e-9485-e15348a8e86c.gif" style="width:50%;float:left;margin:0px">
-       <img src="https://user-images.githubusercontent.com/98932808/209893177-e323db2d-6619-4df3-9728-f21861d70a4c.gif" style="width:50%;float:left;margin:0px">
-   </div>
-    
- </div>
-       
-  <div class="mySlides3">
-    <div style="padding: 56.25% 0 0 0; position: relative">
-        <iframe
-          src="https://player.vimeo.com/video/748206454?h=c7c4f32f91&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-          frameborder="0"
-          allow="autoplay; fullscreen; picture-in-picture"
-          allowfullscreen
-          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%"
-          title="IBM AI Governance"
-        ></iframe>
-      </div>
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1,2)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,2)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-</div>
-    
-
-    
-    <div class="row">
-    <div class="textcolumnside">
-            <p><i>IBM AI Governance </i></p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p> <b>Animated video detailing the AI governance capabilities of IBM Cloud Pak for Data.</b> This video is intended for onboarding new team 
-        members and educating potential clients. The project combines 2D and 3D animation to convey important information about the product in a fresh and exciting way, while staying true to IBM's established visual identity. Designed, illustrated, and animated this project as a Visual Design Intern (Data and AI) for IBM Cloud and 
-        Cognitive Software. The biggest challenges of this project were learning the isometric illustration style and 3D modeling the laptop mockup from scratch.</p>
-        <p> Script by Thomas Hollifield, voice over by Nicole Jones.</p>
-        <p>
-        <a href = "https://drive.google.com/file/d/1MEioFz54ZKZiGN0vYJRLfc1RcVv7FOCp/view?usp=sharing" target="_blank" style="text-decoration: underline"> View full presentation deck PDF</a>
-      </p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Motion, Video, 3D </p>
-      </div>
-    </div>
-      
-    <hr>
-    <br>
-    
-        <div class="slideshow-container">
-   
-   <div class="mySlides2">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/949ec7c1-e203-4661-b657-2fdfd1e1e52a" style="width:100%">
-   </div>
-
-           <div class="mySlides2">
-            <div class="row">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/225d2534-9797-4ea7-be82-0b4707721fc2" style="width:25%;float:left;padding:2%">
-              <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/7098d524-4f20-4c6a-a189-7eb56eeba119" style="width:25%;float:left;padding:2%">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/cb94a3f9-6ec6-488c-a4d7-4fcaaf93c8d9" style="width:25%;float:left;padding:2%">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/7859384f-99be-433d-acca-14b8cc7d5459" style="width:25%;float:left;padding:2%">
-            </div>
-
-            <div class="row">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/dda0d2bf-b2bb-4cf4-9339-75572a29623d" style="width:25%;float:left;padding:2%">
-              <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/1671f3f0-bc24-44b0-848c-0d8c351ae0a6" style="width:25%;float:left;padding:2%">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/3d27b796-646e-46db-a6a5-3a8a6daa1768" style="width:25%;float:left;padding:2%">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/29278514-f39d-4776-80c5-ad4cbf0bde03" style="width:25%;float:left;padding:2%">
-            </div>
-            
-            </div>
-
-<div class="mySlides2">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/8cf4fa28-7eb0-45c9-b4cc-0bd2e6aeab28" style="width:100%">
-   </div>
-
-           <div class="mySlides2">
-            <div class="row">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/3dc915df-eff7-4199-a1a3-838908abf986" style="width:40%;float:center">
-            </div>
-
-            <div class="row">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/82616af0-c49d-45fc-acd0-c73606def6f2" style="width:40%;float:center">
-          
-            </div>
-            
-            </div>
-
-          <div class="mySlides2">
-  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/99634c47-fa43-4602-a2dd-6c4c9df9540a" style="width:100%">
-   </div>
-
-    
-    <a class="prev" onclick="plusSlides(-1,1)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,1)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-    
-    </div>
-       
-         <div class="row">
-    <div class="textcolumnside">
-            <p><i>UCLA Arts Summer Institute Playing Cards 2023</i></p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p><b>Special edition 54-card playing deck</b> to be gifted to high school students attending the sold-out UCLA Arts Summer Institute program. I developed and illustrated a summery, playful, and colorful visual style that appeals to teenage consumers, along with face cards that stray from gender norms. The designs utilize simple, “imperfect” cut-out shapes to emulate scrapbooks one would make at summer camp. It was most important to the client that the cards be gender-neutral, so the communications team and I brainstormed and created new face cards to replace the King, Queen, Jack, and Joker hierarchy. We settled on Sun, Moon, Star, and Blackhole, calling back to the nature exploration aspect of summer camp. The client asked that the suits be unique to the UCLA Arts identity, so I devised a system where each department of the school is abstractly represented by a simple, recognizable shape and color scheme. These symbols allow for straightforward gameplay through the use of easy 
-          and familiar shapes, while also tying in the values of each department. </p>
-      
-        <p>
-        The cards were such a big hit among UCLA admin that the original order of 500 decks was doubled to 1000 for distribution across all departments. Additionally, we repurposed the design for exclusive screenprinted t-shirts gifted to the student body at the 2023-2024 UCLA Arts Opening Reception.</p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Print, Packaging, Merch </p>
-      </div>
-    </div>
-      
-    <hr>
-    <br> 
-
-<div class="slideshow-container">
-   
-   <div class="mySlides1">
-     <div class="row">
-       <img src="https://user-images.githubusercontent.com/98932808/231651086-c492f9bd-820b-4082-af5f-b172a88dcd90.png" style="width:50%;float:left;padding:2.5%">
-       <img src="https://user-images.githubusercontent.com/98932808/231651079-18c7ab76-7c46-4d76-8335-5debd9e1aa40.png" style="width:50%;float:left;padding:2.5%">
-   </div>
-  </div>
-  
-   <div class="mySlides1">
-     <div class="row">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/e40db031-6057-4e48-972a-9c48cd349fed" style="width:33.33%;float:left;padding:2%">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/701a1072-90ff-4c15-96e1-672b542e598a" style="width:33.33%;float:left;padding:2%">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/945bc6d9-8f6b-43dd-ad1e-e955e8e81023" style="width:33.33%;float:left;padding:2%">
-     </div>
-   </div>
-
-    <div class="mySlides1">
-  <div class="row">
-        <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/ccf174bd-a88c-4589-87c3-86cfd2489805" style="width:33.33%;float:left;padding:2%">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/737e6f81-de15-48d5-b24e-bd6070b372f3" style="width:33.33%;float:left;padding:2%">
-     <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/d1fa46eb-49b7-44a8-82a1-9e1e3e5fe147" style="width:33.33%;float:left;padding:2%">
-      </div>
-    </div>
-    
-    <a class="prev" onclick="plusSlides(-1,0)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,0)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-    
-    </div>
-    
-
-    
-    <div class="row">
-    <div class="textcolumnside">
-            <p><i>UCLA Arts Summer Sessions 2023</i></p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p><b>Social media campaign and 2 24”x36” print posters</b> advertising course offerings for UCLA Arts’ Summer Sessions. I formulated a light hearted brand identity for the 2023 curriculum that featured dynamic, wispy shapes and bright colors assigned to each department (borrowed from existing style guidelines), along with typography that felt clean and scholarly. The 33 Instagram Story ads and posts promoted all available courses to over 12,000 users. Posters were printed and posted on the walls of Broad Art Center.</p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Print, Digital </p>
-      </div>
-    </div>
-      
-    <hr>
-    <br>  
-
-    
-<div class="slideshow-container">
-
-   <div class="mySlides5">
-     <div class="row">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/4b569d12-3a05-4d11-8e55-8a42468a3b40" style="width:50%;float:left;padding:5%">
-       <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/c0487bd5-b0bf-4e54-ab40-5bf97ea5ccc5" style="width:50%;float:left;padding:5%">
-   </div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1,4)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,4)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-  
-</div>
-    
-    <div class="row">
-      
-      <div class="textcolumnside">
-            <p> Take It Slow </p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p><b>Album cover</b> commissioned by Los Angeles-based producer and rapper QU/NTEN for his 2023 single “Take it Slow”. The song and artwork are now both available on all music streaming services for your listening and viewing pleasure. The client requested that I design a cover with 3D cloud lettering in front of a blue sky. I played around with colors and created an additional pink sunset version, which QU/NTEN liked so much that he used instead of the original blue cover.
-        </p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> AR, Motion, Print </p>
-      </div>
-    </div>
-    
-    <hr>
-    <br> -->
-    
-    
-<!--      <div class="slideshow-container">
-      
-  <div class="mySlides6">
-     <div class="row">
-       <img src="https://user-images.githubusercontent.com/98932808/223945188-851ef275-16da-4269-bc2c-09ba021b8a60.png" style="width:50%;float:left;padding:5%">
-       <img src="https://user-images.githubusercontent.com/98932808/223945192-39bb8839-d7ce-4792-9f82-7d7fa3dbeed7.png" style="width:50%;float:left;padding:5%">
-   </div>
-  </div>
-      
-  <div class="mySlides6">
-     <div class="row">
-       <img src="https://user-images.githubusercontent.com/98932808/223624950-5a263349-df42-4be4-a35a-d7255ef38c11.png" style="width:50%;float:left;padding:5%">
-       <img src="https://user-images.githubusercontent.com/98932808/223788892-9d84c14d-433f-4706-aaf1-c01d0a2cb5e4.png" style="width:50%;float:left;padding:5%">
-   </div>
-  </div>
-  
-<a class="prev" onclick="plusSlides(-1,5)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,5)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-  
-</div>
-    
-    <div class="row">
-      <div class="textcolumnside">
-            <p> The Rise of Bread </p>
-      </div>
-      
-      <div class="textcolumncenter">
-            <p>Two 17"x22" informative posters diving deep into wheat, corn, and rice and each grain's breadmaking process. Researched, designed, and baked in collaboration with Peyton Gee and Valentin Nguyen. 
-        We illustrated the overlap in ingredients between wheat bread, cornbread, and rice bread using a Venn diagram. At the suggestion of media artist and UCLA Art|Sci Center director Victoria Vesna, the ingredients were displayed in petri dishes to create a sense of visual harmony with the circular forms of the diagram.</p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Print, Photo </p>
-      </div>
-    </div>
-    
-    <hr>
-    <br>
-
-       <div class="slideshow-container">
-  
-  <div class="mySlides7">
-     <img src="https://user-images.githubusercontent.com/98932808/248082641-46d0f99b-f358-470b-9c14-ad0f7a844d78.png" style="width:100%">
-  </div>
-          <div class="mySlides7">
-     <img src="https://user-images.githubusercontent.com/98932808/248143814-922bcba5-2083-4c4d-990e-2b48bca399dc.jpg" style="width:100%">
-  </div>
-
-      <div class="mySlides7">
-         <div class="row">
-     <img src="https://user-images.githubusercontent.com/98932808/248083233-dd7c4477-dfa9-4800-becb-e79df2251bbe.png" style="width:50%;float:left;padding:1%">
-      <img src="https://user-images.githubusercontent.com/98932808/248083197-c6360798-0c2e-4523-bda8-ab1b363e2c41.png" style="width:50%;float:left;padding:1%">
-    </div>
-    </div>
-
-      <div class="mySlides7">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/838850483?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="video2"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-
-      <div class="mySlides7">
-        <div style="padding: 56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/838852770?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="rot4 2023-06-12 15-35-41"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-  
-     <div class="mySlides7">
-       <img src="https://user-images.githubusercontent.com/98932808/248082743-412fa54c-e7f3-48a6-a534-9dc89ad795a3.png" style="width:100%">
-  </div>
-
- 
-  <a class="prev" onclick="plusSlides(-1,6)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,6)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-</div>
-  
-                                           
-    <div class="row">
-      <div class="textcolumnside">
-            <p> Spoiled </p>
-      </div>
-      
-      <div class="textcolumncenter">
-        <p>A 3D-animated interactive fridge that explores the gross, ugly side of food in a wacky way. Users are invited to hover their right hand over the projection to "open" the fridge and trigger the deterioration of its contents. 
-        </p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Installation, Interactive, 3D </p>
-      </div>
-    </div>
-    
-    <hr>
-    <br>
-  
-
-<div class="slideshow-container">
-  
-  <div class="mySlides8">
-     <img src="https://user-images.githubusercontent.com/98932808/218245340-9ea613b8-f359-40f2-a69a-903d94ece702.jpg" style="width:100%">
-  </div>
-  
-  <div class="mySlides8">
-    <img src="https://user-images.githubusercontent.com/98932808/218278211-fadba43d-d747-46a7-8a9d-8a8590c96a1f.png" style="width:100%">
-  </div>
-
- <div class="mySlides8">
-    <img src="https://user-images.githubusercontent.com/98932808/218278279-2ab4dffc-4060-4fe7-8731-f2ba4425d87a.png" style="width:100%">
-  </div>
-  
-     <div class="mySlides8">
-       <img src="https://user-images.githubusercontent.com/98932808/218285327-70531c3d-da65-4051-8eea-596dc3209557.JPG" style="width:100%">
-  </div>
-
- 
-  <a class="prev" onclick="plusSlides(-1,7)"><img src="https://user-images.githubusercontent.com/98932808/211733401-17b09e14-5e18-49a9-8be8-4ae9f4245dc3.png"style="width:24px"></a>
-  <a class="next" onclick="plusSlides(1,7)"><img src="https://user-images.githubusercontent.com/98932808/211733398-c99aee9c-c895-4137-b190-a518a4e21891.png" style="width:24px"></a>
-</div>
-  
-                                           
-    <div class="row">
-      <div class="textcolumnside">
-            <p> Egg Lamp </p>
-      </div>
-      
-      <div class="textcolumncenter">
-        <p>A lamp product meant to look like a beautiful mistake, no matter what surface it is placed on. This piece of home decor is an oversized, accidentally cracked raw egg containing a glowing  LED light 
-          in its yolk to illuminate any space. Through its clear egg white, environmental texture becomes a part of the work itself. Working prototype was made with laser-cut acrylic material 
-          and half of a ball pit ball. Selected for the 2023 DMA Undergraduate Exhibition at UCLA. 
-        </p>
-        <p>First photo documentation credit to Lauren Villanueva.</p>
-      </div>
-      
-      <div class="textcolumnside" style="float:right">
-            <p style="text-align:right"> Product, Packaging, Branding </p>
-      </div>
-    </div>
-    
-    <hr>
-    <br> -->
 
     
  <div class="footer">
