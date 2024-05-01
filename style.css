@@ -12,6 +12,10 @@ body {
   padding:0;
 }
 
+p {
+  color: #70544d;
+}
+
 nav {
   overflow: hidden;
   position: fixed;
@@ -55,7 +59,7 @@ li a:hover{
 }
 
 h1 {
-  color: black;
+  color: #70544d;
   font-size: 25px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
@@ -65,6 +69,7 @@ h1 {
 }
 
 h2 {
+  color: #70544d;
   font-size: 20px;
   font-family: freighttextcmp-pro, serif;
   font-weight: 300;
@@ -73,6 +78,7 @@ h2 {
 }
 
 h3 {
+  color: #70544d;
   font-size: 10px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 300;
@@ -87,10 +93,10 @@ h3 {
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  background-color: whjte;
+  background-color: #f2bdbd;
   border-style: none none solid none;
   border-width:0.5px;
-  border-color:black;
+  border-color: #70544d;;
 }
 
 .marquee ul{
@@ -133,11 +139,13 @@ h3 {
 .left {
   border-style: solid;
   border-width: 0 0.5px 0.5px 0;
+  border-color: #70544d;
 }
 
 .right {
   border-style: solid;
   border-width: 0 0.5px 0.5px 0;
+  border-color: #70544d;
   border-right-color: white;
 }
 
@@ -247,7 +255,7 @@ section img {
 } 
 
 a:link {
-  color: black;
+  color: #70544d;
   text-decoration: none;
 }
 
@@ -257,7 +265,7 @@ a:active {
 }
 
 a:visited {
-  color: black;
+  color: #70544d;
   text-decoration: none;
 }
 
