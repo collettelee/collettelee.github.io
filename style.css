@@ -113,10 +113,9 @@ h3 {
   animation: scroll 30s linear infinite;
   flex: 0 0 auto;
   font-family: nimbus-sans-extended, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-size: 14px;
-  color: #faf7ed;
   text-align: center;
 }
 
