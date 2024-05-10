@@ -183,7 +183,7 @@ h3 {
 section {
   padding-bottom: 15px;
   margin: auto;
-  width:85%;
+  width:93%;
 }
 
 section img {
@@ -297,6 +297,10 @@ a:visited {
     p {
         font-size: 90%;
     }
+
+  section {
+    width: 95%;
+  }
 
   .proj_intro {
     width:100%;
