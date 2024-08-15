@@ -192,7 +192,11 @@ h3 {
   transition: 0.5s ease;
 }
 
-.thumbnail:hover p {
+.thumbnail:hover h1 {
+  opacity: 1;
+}
+
+.thumbnail:hover h2 {
   opacity: 1;
 }
 
