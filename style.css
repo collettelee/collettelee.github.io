@@ -1,5 +1,5 @@
 body {
-  background-color: #faf7ed;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: 100%;
@@ -20,10 +20,10 @@ nav {
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: #faf7ed;
+  background-color: white;
   padding-bottom: 4px;
   border-style: none none solid none;
-  border-color: #70544d;
+  border-color: black;
   border-width: 0.5px;
   z-index:950;
   width: 100%;
@@ -59,7 +59,7 @@ li a:hover{
 }
 
 h1 {
-  color: #70544d;
+  color: black;
   font-size: 25px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
@@ -69,7 +69,7 @@ h1 {
 }
 
 h2 {
-  color: #70544d;
+  color: black;
   font-size: 20px;
   font-family: freighttextcmp-pro, serif;
   font-weight: 300;
@@ -78,7 +78,7 @@ h2 {
 }
 
 h3 {
-  color: #70544d;
+  color: black;
   font-size: 10px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 300;
@@ -93,10 +93,10 @@ h3 {
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  background-color: #f2bdbd;
+  background-color: white;
   border-style: none none solid none;
   border-width:0.5px;
-  border-color: #70544d;;
+  border-color: black;
 }
 
 .marquee ul{
@@ -139,13 +139,13 @@ h3 {
 .left {
   border-style: solid;
   border-width: 0 0.5px 0.5px 0;
-  border-color: #70544d;
+  border-color: black;
 }
 
 .right {
   border-style: solid;
   border-width: 0 0.5px 0.5px 0;
-  border-color: #70544d;
+  border-color: black;
   border-right-color: white;
 }
 
@@ -274,7 +274,7 @@ section img {
 } 
 
 a:link {
-  color: #70544d;
+  color: black;
   text-decoration: none;
 }
 
@@ -284,7 +284,7 @@ a:active {
 }
 
 a:visited {
-  color: #70544d;
+  color: black;
   text-decoration: none;
 }
 
