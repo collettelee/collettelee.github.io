@@ -20,6 +20,11 @@
         margin-bottom: 15px;
       }
 
+      .full-photo img {
+        aspect-ratio: 3/2;
+        object-fit: cover;
+      }
+
       .photo_grid {
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -54,9 +59,22 @@
         grid-row-gap: 15px;
         font-size:0;
       }
+
+      .lny_grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 15px;
+        gift-row-gap: 15px;
+        font-size:0;
+      }
       
       @media only screen and (max-width: 500px) {
-
+      
+      .full-photo img {
+        aspect-ratio: auto;
+        object-fit: contain;
+      }
+        
      .photo_grid {
       grid-template-columns: auto auto;
       }
@@ -67,6 +85,10 @@
      .pr_grid {
       grid-template-columns: auto;
      }
+
+    .lny_grid {
+      grid-template-columns: auto auto;
+    }
 
     .video_grid {
       grid-template-columns: auto;
@@ -88,7 +110,7 @@
     <section>
     <div class="proj_intro">
             <h2>YENSA</h2>
-            <h3>PR MATERIALS / EMAILS / A+ CONTENT</h3>
+            <h3>EMAIL / PRINT / PHOTO</h3>
       <p>Selected works designed for YENSA, an Asian American beauty brand that combines Superfood Science and Asian Rituals to produce luxurious complexion, skincare, and color products.</p>
       </div>
     </section>
@@ -154,7 +176,34 @@
     <p>Promo and sales emails.</p>
   </div>
 </section>
+
+<section>
+
+  <div class="full-photo">
+    <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/2e23f29d-5d12-4d40-8b06-0ad53b766b73">
+  </div>
+
+  <div class="lny_grid">
     
+    <div class="grid-items">
+      <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/ab8d7d4b-99da-4ffe-a71c-74aa9620790c">
+    </div>
+
+     <div class="grid-items">
+      <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/e726a524-67c5-4792-9ae0-0a61f3f2f6bf">
+    </div>
+
+    <div class="grid-items">
+      <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/de5297a4-4951-4067-a3eb-437f71d0b092">
+    </div>
+  </div>
+  
+<div class="caption">
+           <p>Lunar New Year PR beauty box featuring a custom dragon tin, lip products with limited-edition red caps, and a <i>hongbao</i>-inspired red envelope. 
+         In addition to the gift set, I created menus and signage for three global influencer events held in New York, London, and Los Angeles.</p>
+</div>
+  
+</section>
 <section>
   <div class="photo_grid">
     <div class="grid-items">
