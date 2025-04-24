@@ -22,8 +22,21 @@
         grid-row-gap: 15px;
         font-size:0;
       }
+
+      .print_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size: 0;
+      }
       
       @media only screen and (max-width: 500px) {
+
+       .print_grid {
+        grid-template:columns: auto;
+        }
+        
         .email_grid {
           grid-template-columns: auto;
         }
@@ -83,9 +96,33 @@
       <div class="grid-items"> 
         <img src="https://github.com/user-attachments/assets/7a23bc66-7bf6-468e-81cd-0e855cc44412">
     </div>
+
+  <div class="caption">
+    <p>Promo and sales emails.</p>
+  </div>
   
 </div>
 </section>
+
+    <section style="margin-bottom:42px">
+     
+      <div class="print_grid"> 
+
+        <div class="grid-items">
+        <img src="https://github.com/user-attachments/assets/6fe4563c-8edb-4cf8-9f89-0bdf4dcc109a">
+        </div>
+
+        <div class="grid-items">
+        <img src="https://github.com/user-attachments/assets/96d89771-07db-48f0-8c13-2ba75d7e017b">
+        </div>
+        
+      </div>
+
+    <div class="caption">
+    <p>Gift card and envelope + Pressed Juicery tonic collaboration.</p>
+  </div>
+      
+    </section>
         
  <div class="footer">
       <p>Hand-coded with love by Collette Lee</p>
