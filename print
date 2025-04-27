@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link
+      rel="icon"
+      href="https://github.com/collettelee/collettelee.github.io/assets/98932808/95ff7a21-7122-4276-a050-c3faff9b8e41">
+    
+    <title>YENSA - Collette Lee</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qep3gep.css">
+
+    <script src="/script.js" defer></script>
+
+    <style>
+
+      .print_grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-column-gap: 15px;
+        grid-row-gap: 15px;
+        font-size:0;
+      }
+
+      .full-photo {
+        margin: auto auto 15px auto;
+        width: 75%;
+      }
+      
+      @media only screen and (max-width: 500px) {
+      
+     .print_grid {
+      grid-template-columns: auto;
+     }
+
+     .full-photo {
+     width:100%;
+     }
+  }
+    </style>
+  </head>
+  <body>
+    
+    <nav>
+  <ul>
+          <li style="float:right; padding-top:5px;padding-right:5px"><a href="info">Info</a></li>
+          <li style="float:left; padding-top:5px;padding-left:5px"><a href="index">Work</a></li>
+          <li><h1>COLLETTE LEE</h1></li>
+        </ul>
+    </nav>
+
+    <section>
+    <div class="proj_intro">
+            <h2>Print</h2>
+            <h3>BOOKS / POSTERS</h3>
+      <p>Miscellaneous print graphics from over the years.</p>
+      </div>
+    </section>
+
+<section>
+  
+  <div class="print_grid">
+    
+    <div class="grid_items">
+    <img src="https://user-images.githubusercontent.com/98932808/209903207-0bbec8e3-b3e1-4787-8fbf-5517bfb2b097.png">
+    </div>
+    
+  <div class="grid_items">
+    <img src="https://user-images.githubusercontent.com/98932808/209913216-016f4d42-ca1c-4083-a3c3-16305a9da196.png">
+  </div>
+
+    <div class="grid_items">
+      <img src="https://user-images.githubusercontent.com/98932808/218574342-387bb0ee-212c-4a33-9d96-6613e5387446.png">
+  </div>
+     
+    <div class="grid_items">
+      <img src="https://user-images.githubusercontent.com/98932808/218574337-09046d90-cf3c-4a90-ad80-1bb3909fada4.png">
+    </div>
+
+<div class="grid_items">
+      <img src="https://user-images.githubusercontent.com/98932808/209913357-48eb3c26-07c4-4425-870c-6709c2b7bd21.png">
+</div>
+
+
+    <div class="grid_items">
+      <img src="https://user-images.githubusercontent.com/98932808/209913399-149eded9-41ab-494b-8972-ceffeb2e0006.png">
+  </div>
+    
+</div>
+    
+<div class="caption">
+    <p>ENTER Mag - the Arts Issue of a publication highlighting emerging technology.</p>
+  </div>
+</section>
+
+<section>
+  
+  <div class="print_grid">
+    
+    <div class="grid_items">
+    <img src="https://user-images.githubusercontent.com/98932808/223945188-851ef275-16da-4269-bc2c-09ba021b8a60.png">
+    </div>
+    
+  <div class="grid_items">
+    <img src="https://user-images.githubusercontent.com/98932808/223945192-39bb8839-d7ce-4792-9f82-7d7fa3dbeed7.png">
+  </div>
+
+</div>
+    
+<div class="caption">
+    <p>Educational poster exploring how different types of grain give rise to bread.</p>
+  </div>
+</section>
+
+<section style="margin-bottom: 42px"> 
+
+  <div class="full-photo">
+  <img src="https://github.com/collettelee/collettelee.github.io/assets/98932808/6f815371-bda4-4725-8952-ff2098f4f0ee">
+  </div>
+
+  <div class="caption">
+  <p>L'Occitane perfume advertisement.
+  </div>
+
+</section>
+        
+ <div class="footer">
+      <p>Designed & coded by Collette</p>
+    </div>
+    
+    
+  </body>
+</html>
