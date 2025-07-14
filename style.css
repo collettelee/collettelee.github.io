@@ -1,5 +1,5 @@
 body {
-  background-color: #F3B5CB;
+  background-color: white;
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: 100%;
@@ -21,7 +21,7 @@ nav {
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: #F3B5CB;
+  background-color: white;
   padding-bottom: 4px;
   border-style: none none solid none;
   border-color: black;
