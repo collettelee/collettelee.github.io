@@ -21,7 +21,7 @@ nav {
   overflow: hidden;
   position: fixed;
   top: 0;
-  background-color: white;
+  /* background-color: white; */
   padding-bottom: 4px;
   border-style: none none solid none;
   border-color: black;
