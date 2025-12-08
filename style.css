@@ -94,7 +94,7 @@ h3 {
   overflow: hidden;
   user-select: none;
   gap: var(--gap);
-  background-color: #F3B5CB;
+  background-color: white;
   border-style: none none solid none;
   border-width:0.5px;
   border-color: black;
