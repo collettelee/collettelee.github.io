@@ -7,7 +7,7 @@ body {
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
-  font-color: black;
+  font-color: blue;
   margin:0;
   padding:0;
 }
@@ -24,7 +24,7 @@ nav {
   background-color: white;
   padding-bottom: 4px;
   border-style: none none solid none;
-  border-color: black;
+  border-color: blue;
   border-width: 0.5px;
   z-index:950;
   width: 100%;
@@ -60,7 +60,7 @@ li a:hover{
 }
 
 h1 {
-  color: black;
+  color: blue;
   font-size: 25px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 400;
@@ -70,7 +70,7 @@ h1 {
 }
 
 h2 {
-  color: black;
+  color: blue;
   font-size: 20px;
   font-family: freighttextcmp-pro, serif;
   font-weight: 300;
@@ -79,7 +79,7 @@ h2 {
 }
 
 h3 {
-  color: black;
+  color: blue;
   font-size: 10px;
   font-family: nimbus-sans-extended, sans-serif;
   font-weight: 300;
@@ -97,7 +97,7 @@ h3 {
   background-color: white;
   border-style: none none solid none;
   border-width:0.5px;
-  border-color: black;
+  border-color: blue;
 }
 
 .marquee ul{
@@ -275,7 +275,7 @@ section img {
 } 
 
 a:link {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
@@ -285,7 +285,7 @@ a:active {
 }
 
 a:visited {
-  color: black;
+  color: blue;
   text-decoration: none;
 }
 
